@@ -1,0 +1,31 @@
+{
+  "name": "zap-to-junit",
+  "version": "0.0.0",
+  "description": "Convert ZAP to JUnit",
+  "main": "index.js",
+  "repository": "jamiebuilds/zap-to-junit",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "keywords": [
+    "zap",
+    "zaptst",
+    "junit",
+    "results",
+    "output",
+    "test",
+    "tests"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "flow && ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "flow-bin": "^0.78.0"
+  },
+  "dependencies": {
+    "meow": "^5.0.0"
+  }
+}
